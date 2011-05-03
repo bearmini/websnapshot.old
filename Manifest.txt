@@ -3,7 +3,17 @@ Manifest.txt
 PostInstall.txt
 README.rdoc
 Rakefile
+bin/websnapshot
+dependencies.memo.text
 lib/websnapshot.rb
+lib/websnapshot/cli.rb
 script/console
 script/destroy
 script/generate
+spec/spec.opts
+spec/spec_helper.rb
+spec/websnapshot_spec.rb
+tasks/rspec.rake
+test/test_helper.rb
+test/test_websnapshot.rb
+test/test_websnapshot_cli.rb
