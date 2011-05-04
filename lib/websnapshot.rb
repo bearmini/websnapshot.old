@@ -8,7 +8,7 @@ unless defined? Websnapshot
 
 
   module Websnapshot
-    VERSION = '0.0.2'
+    VERSION = '0.0.3'
 
     def self.take(url, options = {})
       saved_filename = nil
