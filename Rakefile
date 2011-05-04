@@ -14,7 +14,7 @@ $hoe = Hoe.spec 'websnapshot' do
   self.developer 'Takashi Oguma', 'bear.mini@gmail.com'
   self.post_install_message = 'PostInstall.txt' # TODO remove if post-install message not required
   self.rubyforge_name       = self.name # TODO this is default value
-  # self.extra_deps         = [['activesupport','>= 2.0.2']]
+  self.extra_deps         = [['gtk2','>= 0.90.8']]
 
 end
 

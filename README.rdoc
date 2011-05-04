@@ -1,26 +1,34 @@
 = websnapshot
 
-* http://github.com/#{github_username}/#{project_name}
+* http://github.com/bearmini/websnapshot
 
 == DESCRIPTION:
 
-FIX (describe your package)
+This is an application and a library to capture images of web pages.
 
 == FEATURES/PROBLEMS:
 
-* FIX (list of features or problems)
+* You can take a snapshot image of an web page.
+* You can specify dimensions of an artifact image.
+* You can specify delay before taking a snapshot. (not implemented yet. planed)
 
 == SYNOPSIS:
 
-  FIX (code sample of usage)
+  $ websnapshot http://google.com
 
 == REQUIREMENTS:
 
-* FIX (list of requirements)
+* For Ubuntu
+  $ sudo apt-get install ruby-gnome2-dev webkit-1.0 libgtk2.0-dev
+
+* For Mac OS X
+  $ sudo port install rb-gnome webkit-gtk
+  (You may be need Xcode installed)
+
 
 == INSTALL:
 
-* FIX (sudo gem install, anything else)
+* sudo gem install websnapshot
 
 == LICENSE:
 
