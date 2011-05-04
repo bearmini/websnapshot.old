@@ -21,9 +21,16 @@ This is an application and a library to capture images of web pages.
 * For Ubuntu
   $ sudo apt-get install ruby-gnome2-dev webkit-1.0 libgtk2.0-dev
 
+  install https://github.com/danlucraft/rbwebkitgtk
+
+
 * For Mac OS X
+
   $ sudo port install rb-gnome webkit-gtk
-  (You may be need Xcode installed)
+
+  (You may need Xcode installed)
+
+  install https://github.com/danlucraft/rbwebkitgtk
 
 
 == INSTALL:
